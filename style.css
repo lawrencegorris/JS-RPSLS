@@ -1,3 +1,5 @@
+/*   ---  SETUP  ---   */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +8,76 @@
 
 body { 
     min-height: 100vh;
+    
+}
+
+header{
+    height: 10vh;
+}
+
+#game {
+    padding-top: 100px;
+    width: 100vw;
+    height: 80vh;
+}
+
+footer {
+    height: 10vh;
+}
+
+/*   ---  BUTTONS  ---   */
+
+#u_buttons{
+    margin: 0 auto;
+    display: block;
+    width: 69%;
+    padding: 15px;
+}
+
+button {
+    margin-right: 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+button:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+button:last-of-type {
+    margin-right: 0;
+}
+
+#u_rock {
+    background-image: url(./assets/rock.png);
+    background-size: contain;
+}
+
+#u_paper {
+    background-image: url(./assets/paper.png);
+    background-size: contain;
+}
+
+#u_scissors {
+    background-image: url(./assets/scissors.png);
+    background-size: contain;
+}
+
+#u_lizard {
+    background-image: url(./assets/lizard.png);
+    background-size: contain;
+}
+
+#u_spock {
+    background-image: url(./assets/spock.png);
+    background-size: contain;
+}
+
+#comp_button {
+    display: block;
+    margin: 0 auto;
+    background-image: url(./assets/generate.png);
+    background-size: contain;
 }

@@ -1,4 +1,5 @@
 /*   ---  SETUP  ---   */
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -12,17 +13,42 @@ body {
 }
 
 header{
-    height: 10vh;
+    display: block;
+    margin: 0 auto;
+    height: 15vh;
+}
+
+#scoreboard{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    font-size: 30px;
+    justify-content: center;
+
+}
+
+.score{
+    text-align: center;
+    margin-right: 25px;
 }
 
 #game {
-    padding-top: 100px;
     width: 100vw;
     height: 80vh;
 }
 
-footer {
-    height: 10vh;
+h1 {
+    text-align: center;
+    font-family: 'Karantina', cursive;
+    text-transform: uppercase;
+    font-size: 75px;
+    color: #010101;
+}
+
+h2{
+    margin-top: 15px;
+    font-size: 50px;
+    color: #010101;
 }
 
 /*   ---  BUTTONS  ---   */
@@ -30,14 +56,16 @@ footer {
 #u_buttons{
     margin: 0 auto;
     display: block;
-    width: 69%;
+    margin-top: 25px;
+    width: 90%;
     padding: 15px;
+    text-align: center;
 }
 
 button {
-    margin-right: 25px;
-    width: 200px;
-    height: 200px;
+    margin-right: 15px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
 }
 
@@ -80,4 +108,23 @@ button:last-of-type {
     margin: 0 auto;
     background-image: url(./assets/generate.png);
     background-size: contain;
+}
+
+#text-box{
+    font-family: 'Karantina', cursive;
+    display: block;
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 45px;
+}
+
+#reset{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
 }

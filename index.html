@@ -10,12 +10,22 @@
 <body>
     
 <header>
-
+    <div id="scoreboard">
+        <div class="score">
+            <p id="user-score"></p>
+        </div>
+        <div class="score">
+            <p id="comp-score"></p>
+        </div>
+    </div>
 </header>
 
 <main>
 
     <section id="game">
+
+        <h1>Rock - Paper - Scissors - Lizard - Spock</h1>
+
         <div id="u_buttons">
             <button id="u_rock"></button>
             <button id="u_paper"></button>
@@ -26,7 +36,12 @@
 
         <button id="comp_button"></button>
         
-        <p id="result">bloop</p>
+        <div id="text-box">
+            <p id="user_choice"></p>
+            <p id="opponent_choice"></p>
+            <h2 id="result"></h2>
+        </div>
+        <button id="reset">RESET GAME</button>
     </section>
 
 </main>
